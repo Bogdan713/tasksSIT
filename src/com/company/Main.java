@@ -43,7 +43,7 @@ public class Main {
         System.out.println("words in a row: " + (string.length() - buf.length() + 1));
 
         System.out.println("\nTask 4 \n");
-        string = "A man, a plan, a cat, a ham, a yak, a yam, a hat, a canal-Panama!";
+        string = "A man, a plan, a cat, a ham, a yak, a yam, a hat, a canal-Panama!";//an polindrom string
         System.out.println(string);
         string = string.toLowerCase()
                 .replace(" ", "")
